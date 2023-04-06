@@ -24,5 +24,9 @@
     font-size: 0.9rem;
     letter-spacing: 1px;
     line-height: 25px;
-
+}
+.features
+{
+   padding-top: 30px;
+   text-align: center;
 }
