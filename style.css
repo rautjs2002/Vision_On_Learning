@@ -49,8 +49,8 @@
     padding-top: 80px;
 }
 
-.js-icon{
-    height: 45px;
+.icon{
+    height: 50px;
    
   }
   
@@ -71,3 +71,11 @@
   .course-overview{
     margin-top: 750px;
   }
+  .dark-mode
+      {
+       background-color:#d6d6c2;
+      }
+      .light-mode
+      {
+        background-color: white;
+      }
