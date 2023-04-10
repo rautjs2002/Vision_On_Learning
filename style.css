@@ -71,3 +71,12 @@
   .course-overview{
     margin-top: 750px;
   }
+
+  .form{
+    margin-left: 50px;
+    width: 350px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-style: bold;
+    color: black;
+}
