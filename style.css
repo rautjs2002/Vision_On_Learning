@@ -59,12 +59,23 @@
   }
   
   .rd1{
-  
-
+  margin-left: 80px;
     position: absolute;
   }
   .rd2{
     position: absolute;
+margin-left:900px;
+  }
+
+  @media screen and (max-width:600px){
+
+  }
+
+  @media screen and (max-width:900px) and (min-width:600px){
+
+  }
+
+  @media screen and (max-width:1500px) and (min-width:900px){
 
   }
   
