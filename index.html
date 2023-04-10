@@ -20,15 +20,47 @@
       const element=document.getElementById("modechange");
       element.className="light-mode";
     }
-    function search()
+   function search()
    {
-       const input=document.getElementById("inputbox").value;
-       if(input=="javascript")
-       {
-      
-       }
-    }
+    const element=document.getElementById("inputbox").value;
+    if(element=='javascript')
+   {
+    const element=document.getElementById("js").innerText;
+    alert(element)
+   }
+   else if(element=='html')
+   {
+    const element=document.getElementById("html").innerText;
+    alert(element)
+   }
+   else if(element=='web development')
+   {
+    const element=document.getElementById("web-dev").innerText;
+    alert(element)
+   }
+   else if(element=='web designe')
+   {
+    const element=document.getElementById("web-design").innerText;
+    alert(element)
+   }
+   else if(element=='angular')
+   {
+    const element=document.getElementById("angular").innerText;
+    alert(element)
+   }
+   else if(element=='python')
+   {
+    const element=document.getElementById("python").innerText;
+    alert(element)
+   }
+   else
+   {
+    alert("not found")
+   }
+
+   }
    </script>
+   
 </head>
 <body id="modechange"> 
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
@@ -69,8 +101,8 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input id="inputbox" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit" onclick="search()">Search</button>
+              <input id="inputbox" class="form-control me-2" type="search"  placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" onclick="search()" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -125,8 +157,8 @@
         <div class="row my-3 mx-3 p-4">
             <div class="col-md-4">
               <div class="card shadow-lg">
-                <a href="./pages/js.html" id="textshow"> <img src="./images/c1.jpg" class="card-img-top" alt="..."> </a>
-                <h4 class="text-center">javaScript Beginners Course</h4>
+                <a  href="./pages/js.html" > <img src="./images/c1.jpg" class="card-img-top" alt="..."> </a>
+                <h4 class="text-center" ><a href="./pages/js.html" id="js">javaScript Beginners Course</a></h4>
                 <p>Only at ₹ 999 /-</p>
               </div>
             </div>
@@ -134,14 +166,14 @@
       
               <div class="card shadow-lg">
                 <img src="./images/c2.jpg" class="card-img-top" alt="...">
-                <h4 class="text-center">HTML & CSS Beginners Course </h4>
+                <h4 class="text-center" id="html">HTML & CSS Beginners Course </h4>
                 <p>Only at ₹ 999 /-</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card shadow-lg">
                 <img src="./images/c3.jpg" class="card-img-top" height="260px" alt="...">
-                <h4 class="text-center">Python Beginners Course</h4>
+                <h4 class="text-center" id="python">Python Beginners Course</h4>
                  <p>Only at ₹ 999 /-</p>
               </div>
             </div>
@@ -150,7 +182,7 @@
             <div class="col-md-4">
               <div class="card shadow-lg">
                 <img src="./images/c4.jpg" class="card-img-top" alt="...">
-                <h4 class="text-center">Web Design Crash Course</h4>
+                <h4 class="text-center" id="web-desing">Web Design Crash Course</h4>
                 <p>Only at ₹ 999 /-</p>
               </div>
             </div>
@@ -158,14 +190,14 @@
       
               <div class="card shadow-lg">
                 <img src="./images/c5.jpg" class="card-img-top" alt="...">
-                <h4 class="text-center">Web Development Crash Course</h4>
+                <h4 class="text-center" id="web-dev">Web Development Crash Course</h4>
                 <p>Only at ₹ 999 /-</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card shadow-lg">
                 <img src="./images/c6.jpg" class="card-img-top" height="260px" alt="...">
-                <h4 class="text-center">Angular Beginners Course</h4>
+                <h4 class="text-center" id="angular">Angular Beginners Course</h4>
                 <p>Only at ₹ 999 /-</p>
               </div>
             </div>
