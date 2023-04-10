@@ -60,17 +60,19 @@
   
   .rd1{
   
-    margin-left: 70px;
+
     position: absolute;
   }
   .rd2{
     position: absolute;
-    margin-left: 900px;
+
   }
   
   .course-overview{
     margin-top: 750px;
   }
+
+
   .dark-mode
       {
        background-color:#d6d6c2;
@@ -79,3 +81,4 @@
       {
         background-color: white;
       }
+
