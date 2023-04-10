@@ -10,7 +10,7 @@
    justify-content: center;
    align-items: center;
     
-}
+}  
 #home h2
 {
     color: white;
@@ -59,25 +59,15 @@
   }
   
   .rd1{
-  margin-left: 80px;
+    margin-left: 80px;
     position: absolute;
   }
   .rd2{
     position: absolute;
-margin-left:900px;
+    margin-left:900px;
   }
 
-  @media screen and (max-width:600px){
 
-  }
-
-  @media screen and (max-width:900px) and (min-width:600px){
-
-  }
-
-  @media screen and (max-width:1500px) and (min-width:900px){
-
-  }
   
   .course-overview{
     margin-top: 750px;
