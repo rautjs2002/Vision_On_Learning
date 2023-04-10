@@ -21,9 +21,21 @@
    color: aliceblue; 
 }
 </style>
+<script>
+  function dark_mode()
+  {
+    const element=document.getElementById("modechange");
+    element.className="dark-mode";
+  }
+  function light_mode()
+  {
+    const element=document.getElementById("modechange");
+    element.className="light-mode";
+  }
+ </script>
 
   </head>
-<body> 
+<body id="modechange"> 
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"> <img src="data:image/png;base64,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" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -34,29 +46,27 @@
           <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link ms-3" href="#">About</a>
+                <a class="nav-link ms-3" href="/pages/about.html">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link ms-3" href="#">Blog</a>
+                  <a class="nav-link ms-3" href="/pages/blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ms-3" href="#">Courses</a>
+                  <a class="nav-link ms-3" href="/pages/cources.html">Courses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ms-3" href="#">Contact</a>
+                  <a class="nav-link ms-3" href="/pages/contact.html">Contact</a>
                 </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Mode
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><button type="button" onclick="dark_mode()" class="btn">Dark Mode</button></li>
+                  <li><button type="button" onclick="light_mode()" class="btn">Light Mode</button></li>
                 </ul>
               </li>
             </ul>
@@ -69,7 +79,7 @@
       </nav>
 
       <section id="home">
-        <h1>  <img src="../images/js.png" class="js-icon">JavaScript</h1>
+        <h1>  <img src="../images/js.png" class="icon">JavaScript</h1>
         <h2>Enroll Our Popular Cources and Skill Up</h2>
         <h3>Learn Jvascript From Beginning</h3>
      </section>
@@ -114,7 +124,7 @@
     </div>
      
       <div class="card-body">
-        <h5>JavaScript Beginner Course</h5>
+        <h5 class="text-primary-emphasis">JavaScript Beginner Course</h5>
         <h4>⭐⭐⭐</h4>
         <p class="card-text">Modern JavaScript from beginning -all the way upto JS expert level The must have JavaScript resourse in 2021</p>
       </div>
@@ -144,10 +154,10 @@
      About Course
     </div>
     <div class="card-body">
-      <h5 class="card-title">Course Overview</h5>
+      <h5 class="card-title text-primary-emphasis">Course Overview</h5>
       <p class="card-text">in this course we will teach you about the basics of the scripting language i.e Javascript along with building a simple Task Tracker project.<br> By learning this course you would be able to add functionality to your static web page and make it perform different functions with the click of a button.<br> Javascript is a powerful tool and performs functions on the client side. It basically provides an interaction between the user and the webpage</p><br>
 
-      <h5 class="card-title">what you have learn</h5>
+      <h5 class="card-title text-primary-emphasis">what you have learn</h5>
       <p>
         Show or hide more information with the click of a button.<br>
         Slide through a carousel of images on the homepage.<br>
@@ -167,13 +177,92 @@
 
   
 
-<section class="Registration" style="margin-top: 50px;">
-  <div class="registraton-container">
-    <h1 class="registraion-dis">Registration To Get It</h1>
-    <p class="registraion-dis">Get 100 Online Courses For Free</p>
-    <p class="registraion-dis"><small>Last updated 3 mins ago</small></p>
+<footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Vision On Learning</h5>
+              <p>Affordable Computer Science Education For Everyone. We Provide Quality courses which are trusted by 1500+ students.</p>
+          </div>
+         <div class="col-md-2 col-lg-2 col=xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+          <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Search</a>
+          </p>
+          <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Contact</a>
+          </p>
+          <p>
+              <a href="#" class="text-white" style="text-decoration: none;">About</a>
+          </p>
+         </div>
+
+             <div class="col-md-2 col-lg-2 col=xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Learn</h5>
+              <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Javascript</a>
+              </p>
+              <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">HTML & CSS</a>
+              </p>
+              <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Python</a>
+              </p>
+              <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Angular</a>
+              </p>
+             </div>
+             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+              <p>
+                  <a class="navbar-brand" href="#"> <img src="https://cdn-icons-png.flaticon.com/128/553/553416.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">&nbsp;&nbsp;&nbsp;XYZ, NY 2333,Patna</a>
+              </p>
+              <p>
+                  <a class="navbar-brand" href="#"> <img src="https://cdn-icons-png.flaticon.com/128/888/888853.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">&nbsp;&nbsp;&nbsp;abcd@gmail.com</a>
+              </p>
+              <p>
+                  <i class="fas fa-phone mr-3"></i>
+                  <a class="navbar-brand" href="#"> <img src="https://cdn-icons-png.flaticon.com/128/10138/10138091.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">&nbsp;&nbsp;&nbsp;+915866884954</a>
+              </p>
+              <p>
+                  <a class="navbar-brand" href="#"> <img src="https://cdn-icons-png.flaticon.com/128/3771/3771436.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">&nbsp;&nbsp;&nbsp;+08765567889</a>
+              </p>
+
+             </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+              <p>Copyright 0346 All rights reseved by:<a href="#" style="text-decoration: none;"><strong class="text-warning">Vision On Learning</strong></a></p>
+
+          </div>
+          <div class="col-md-5 col-lg-4">
+              <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline"></ul>
+                <li class="list-inline-item">
+                    <a class="navbar-brand" href="#"> <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="Logo" width="40" class="d-inline-block align-text-top"></a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="navbar-brand" href="#"> <img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt="Logo" width="40"  class="d-inline-block align-text-top"></a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="navbar-brand" href="#"> <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="Logo" width="40"  class="d-inline-block align-text-top"></a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="navbar-brand" href="#"> <img src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png" alt="Logo" width="40" class="d-inline-block align-text-top"></a>
+                </li>
+              </div>
+
+          </div>
+
+      </div>
+
   </div>
-</section>
+
+</footer>
 
  
 

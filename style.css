@@ -49,8 +49,8 @@
     padding-top: 80px;
 }
 
-.js-icon{
-    height: 45px;
+.icon{
+    height: 50px;
    
   }
   
@@ -71,6 +71,7 @@
   .course-overview{
     margin-top: 750px;
   }
+<<<<<<< HEAD
 
   .form{
     margin-left: 50px;
@@ -80,3 +81,13 @@
     font-style: bold;
     color: black;
 }
+=======
+  .dark-mode
+      {
+       background-color:#d6d6c2;
+      }
+      .light-mode
+      {
+        background-color: white;
+      }
+>>>>>>> 6693d3de039a43f81bafa358438efd45fcbcc8ca
