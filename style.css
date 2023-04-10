@@ -93,3 +93,26 @@ margin-left:900px;
         background-color: white;
       }
 
+      .form {
+        margin-left: 200px;
+        width: 400px;
+        margin-top: 50px;
+        color: black;
+        font-size: 20px;
+    }
+
+    .containter {
+        height: 800px;
+width: 1200px;
+
+    }
+    .sign{
+
+      margin-left: 200px;
+      width: 400px;
+      margin-top: 50px;
+      color: black;
+      font-size: 20px;
+    }
+
+    
