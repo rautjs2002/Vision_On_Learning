@@ -22,17 +22,52 @@
 }
 </style>
 <script>
-  function dark_mode()
-  {
-    const element=document.getElementById("modechange");
-    element.className="dark-mode";
-  }
-  function light_mode()
-  {
-    const element=document.getElementById("modechange");
-    element.className="light-mode";
-  }
- </script>
+  function search()
+   {
+    const element=document.getElementById("inputbox").value;
+    if(element=='javascript')
+   {
+    alert("javaScript Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='html')
+   {
+    
+    alert("HTML & CSS Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='web development')
+   {
+    alert("Web Development Crash Course are avilable in there go and registration now...")
+   }
+   else if(element=='web design')
+   {
+    alert("Web Design Crash Course are avilable in there go and registration now...")
+   }
+   else if(element=='angular')
+   {
+    alert("Angular Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='python')
+   {
+    alert("Python Beginners Course are avilable in there go and registration now...")
+   }
+   else
+   {
+    alert("No Course are avilable in there🙄😶")
+   }
+
+   }
+   function dark_mode()
+    {
+      const element=document.getElementById("modechange");
+      element.className="dark-mode";
+    }
+    function light_mode()
+    {
+      const element=document.getElementById("modechange");
+      element.className="light-mode";
+    }
+</script>
+
   </head>
 <body id="modechange"> 
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
@@ -45,7 +80,7 @@
           <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link ms-3" href="/pages/about.html">About</a>
@@ -61,17 +96,16 @@
                 </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Mode
+                 Mode
                 </a>
                 <ul class="dropdown-menu">
-                  <li><button type="button" onclick="dark_mode()" class="btn">Dark Mode</button></li>
-                  <li><button type="button" onclick="light_mode()" class="btn">Light Mode</button></li>
+                  
                 </ul>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" id="inputbox" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" onclick="search()" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -80,7 +114,7 @@
       <section id="home">
         <h1>  <img src="../images/html-5.png" class="icon">HTML and CSS</h1>
         <h2>Enroll Our Popular Cources and Skill Up</h2>
-        <h3>Learn Jvascript From Beginning</h3>
+        <h3>Learn html and css From Beginning</h3>
      </section>
 
      <section class="features mt-3">
@@ -106,10 +140,10 @@
           <img src="../images/c2.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="../images/c3.jpg" class="d-block w-100" alt="...">
+          <img src="../images/html1.png" class="d-block w-100" style="height: 500px;" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="../images/c4.jpg" class="d-block w-100" alt="...">
+          <img src="../images/html2.png" class="d-block w-100"  alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -123,7 +157,7 @@
     </div>
      
       <div class="card-body">
-        <h5 class="text-primary-emphasis">JavaScript Beginner Course</h5>
+        <h5 class="text-primary-emphasis">Html and CSS Beginner Course</h5>
         <h4>⭐⭐⭐</h4>
         <p class="card-text">Modern JavaScript from beginning -all the way upto JS expert level The must have JavaScript resourse in 2021</p>
       </div>
@@ -181,7 +215,7 @@
       
     </div>
     <div class="card-footer text-muted">
-      2 days ago
+    
     </div>
   </div>
 </div>

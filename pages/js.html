@@ -22,17 +22,51 @@
 }
 </style>
 <script>
-  function dark_mode()
-  {
-    const element=document.getElementById("modechange");
-    element.className="dark-mode";
-  }
-  function light_mode()
-  {
-    const element=document.getElementById("modechange");
-    element.className="light-mode";
-  }
- </script>
+  function search()
+   {
+    const element=document.getElementById("inputbox").value;
+    if(element=='javascript')
+   {
+    alert("javaScript Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='html')
+   {
+    
+    alert("HTML & CSS Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='web development')
+   {
+    alert("Web Development Crash Course are avilable in there go and registration now...")
+   }
+   else if(element=='web design')
+   {
+    alert("Web Design Crash Course are avilable in there go and registration now...")
+   }
+   else if(element=='angular')
+   {
+    alert("Angular Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='python')
+   {
+    alert("Python Beginners Course are avilable in there go and registration now...")
+   }
+   else
+   {
+    alert("No Course are avilable in there🙄😶")
+   }
+
+   }
+   function dark_mode()
+    {
+      const element=document.getElementById("modechange");
+      element.className="dark-mode";
+    }
+    function light_mode()
+    {
+      const element=document.getElementById("modechange");
+      element.className="light-mode";
+    }
+</script>
 
   </head>
 <body id="modechange"> 
@@ -62,17 +96,17 @@
                 </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Mode
+                  Dropdown
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="Mode">
                   <li><button type="button" onclick="dark_mode()" class="btn">Dark Mode</button></li>
                   <li><button type="button" onclick="light_mode()" class="btn">Light Mode</button></li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" id="inputbox" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" onclick="search()" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -91,7 +125,7 @@
      </section>
 
 
-  <div class="js-img m-5">
+  <div class="js-img m-5 ">
 
    <div class="rd1"> 
     

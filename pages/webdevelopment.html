@@ -32,6 +32,40 @@
     const element=document.getElementById("modechange");
     element.className="light-mode";
   }
+  function search()
+   {
+    const element=document.getElementById("inputbox").value;
+    if(element=='javascript')
+   {
+    alert("javaScript Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='html')
+   {
+    
+    alert("HTML & CSS Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='web development')
+   {
+    alert("Web Development Crash Course are avilable in there go and registration now...")
+   }
+   else if(element=='web design')
+   {
+    alert("Web Design Crash Course are avilable in there go and registration now...")
+   }
+   else if(element=='angular')
+   {
+    alert("Angular Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='python')
+   {
+    alert("Python Beginners Course are avilable in there go and registration now...")
+   }
+   else
+   {
+    alert("No Course are avilable in there🙄😶")
+   }
+
+   }
  </script>
 
   </head>
@@ -46,7 +80,7 @@
           <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link ms-3" href="/pages/about.html">About</a>
@@ -71,8 +105,8 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" id="inputbox" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" onclick="search()" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -104,13 +138,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="../images/img-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/img-2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
           <img src="../images/c5.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../images/c6.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../images/c3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -155,16 +189,18 @@
     </div>
     <div class="card-body">
       <h5 class="card-title text-primary-emphasis">Course Overview</h5>
-      <p class="card-text">in this course we will teach you about the basics of the scripting language i.e Javascript along with building a simple Task Tracker project.<br> By learning this course you would be able to add functionality to your static web page and make it perform different functions with the click of a button.<br> Javascript is a powerful tool and performs functions on the client side. It basically provides an interaction between the user and the webpage</p><br>
+      <p class="card-text">To become a Web Developer, you should have an understanding of HTML, CSS, and JavaScript.<br> It's also recommended to learn about CSS and CSS frameworks. Developing these fundamental<br> web development skills will give you the foundation and logic for communicating with programming languages.</p><br>
 
       <h5 class="card-title text-primary-emphasis">what you have learn</h5>
       <p>
-        Show or hide more information with the click of a button.<br>
-        Slide through a carousel of images on the homepage.<br>
-        Zooming in or zooming out on an image<br>
-        Displaying a timer or count-down on a website.<br>
-       Playing audio and video in a web page.<br>
-        Change the color of a button when the mouse hovers over it.
+        HTML/CSS. To work as a web developer, you must be familiar with HTML and CSS. ..<br>
+        JavaScript. ...<br>
+        Git. ...<br>
+        Backend Tech. ...<br>
+        JS Libraries and Frameworks. ...<br>
+        Testing and Debugging. ...<br>
+        Search Engine Optimization(SEO) Skills. ...<br>
+        Responsive Web Designing Skills.
       </p>
       
     </div>
