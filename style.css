@@ -1,151 +1,100 @@
-#home
-{
-   background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url(./images/back.jpg);
-   width: 100%;
-   height: 90vh;
-   background-size: cover;
-   background-position: center;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-    
-}  
-#home h2
-{
-    color: white;
-    font-size: 2.2rem;
-    letter-spacing: 1px;
+#home {
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(./images/back.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
-#home p
-{
-    width: 50%;
-    color: white;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-    line-height: 25px;
+
+#home h2 {
+  color: white;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
 }
-.features
-{
-   padding-top: 30px;
-   text-align: center;
+
+#home p {
+  width: 50%;
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
-.Registration
-{
-    background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),url(./images/signup.jpg);
-    width: 100%;
+
+.features {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.Registration {
+  background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(./images/signup.jpg);
+  width: 100%;
   height: 50vh;
-   background-size: cover;
-   background-position: center;
-}
-.registraion-dis
-{
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-.registraton-container
-{
-    padding-top: 80px;
+  background-size: cover;
+  background-position: center;
 }
 
-.icon{
-    height: 50px;
-   
-  }
-  
-  .js-img{
-    position: relative;
-  }
-  
-  .rd1{
-    margin-left: 80px;
-    position: absolute;
-  }
-  .rd2{
-    position: absolute;
-    margin-left:900px;
-  }
-
-
-  .course-overview{
-    margin-top: 750px;
-  }
-
-
-  .dark-mode
-      {
-       background-color:#d6d6c2;
-      }
-      .light-mode
-      {
-        background-color: white;
-      }
-
-      .form {
-        margin-left: 200px;
-        width: 400px;
-        margin-top: 50px;
-        color: black;
-        font-size: 20px;
-    }
-
-    *{
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-  }
-  body{
-      background-color: rgb(219,226,226);
-
-<<<<<<< HEAD
-  }
-  .row{
-      background-color: white;
-      border-radius: 30px;
-      box-shadow: 12px 12px 22px;
-  }
-  img{
-      border-top-left-radius: 30px;
-      border-bottom-left-radius: 30px;
-  }
-  .btn1{
-      border: none;
-      outline: none;
-      height: 50px;
-      width: 100%;
-      background-color: black;
-      color: white;
-      border-radius: 4px;
-      font-weight: bold;
-  }
-  .btn1:hover{
-      background-color: white;
-      border: 1px solid;
-      color:black;
-  }
-=======
-    }
-    .sign{
-
-      margin-left: 200px;
-      width: 400px;
-      margin-top: 50px;
-      color: black;
-      font-size: 20px;
-    }
-    #contact
-{
-    padding: 8vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+.registraion-dis {
+  text-align: center;
+  font-size: 40px;
+  color: white;
 }
-.getin{
-    width: 300px;
+
+.registraton-container {
+  padding-top: 80px;
 }
-  
-#contact .getin h1{
+
+.icon {
+  height: 50px;
+
+}
+
+.js-img {
+  position: relative;
+}
+
+.rd1 {
+  margin-left: 80px;
+  position: absolute;
+}
+
+.rd2 {
+  position: absolute;
+  margin-left: 900px;
+}
+
+
+.course-overview {
+  margin-top: 750px;
+}
+
+
+.dark-mode {
+  background-color: #d6d6c2;
+}
+
+.light-mode {
+  background-color: white;
+}
+
+
+
+#contact {
+  padding: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.getin {
+  width: 300px;
+}
+
+#contact .getin h1 {
   color: #2c234d;
   font-size: 50px;
   font-weight: 800;
@@ -153,7 +102,8 @@
   margin-bottom: 10px;
 
 }
-#contact .getin p{
+
+#contact .getin p {
   color: #686875;
   font-size: 20px;
   line-height: 30px;
@@ -161,136 +111,149 @@
   margin-top: 5px;
   margin-bottom: 15px;
 }
-#contact .getin .p1{
+
+#contact .getin .p1 {
   border-bottom: 1px solid #e5e4ed;
 }
-#contact .getin h4{
+
+#contact .getin h4 {
   color: #2c234d;
   font-size: 25px;
   font-weight: 600;
   line-height: 26px;
   margin-bottom: 10px;
   margin-top: 5px;
- 
- 
+
+
 }
-#contact .getin .getin-deatils div{
+
+#contact .getin .getin-deatils div {
   display: flex;
   border-bottom: 1px solid #e5e4ed;
-  
+
 }
 
-.getin-img{
- height: 20px;
+.getin-img {
+  height: 20px;
 
-color: rgb(255, 127, 165);
+  color: rgb(255, 127, 165);
   margin-right: 20px;
 }
-#contact .form{
- background-color: #f7f6fa;
+
+#contact .form {
+  background-color: #f7f6fa;
   padding: 30px;
   border-radius: 10px;
 }
-#contact .form h4{
+
+#contact .form h4 {
   font-size: 40px;
   color: #2c234d;
 }
- .p2{
+
+.p2 {
   font-size: 20px;
   font-family: cursive;
-  color:  #2c234d ;
- }
- .form-row{
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
- }
- .form-row input{
-   font-size: 15px;
- font-weight: 400;
-border-radius: 7px;
- border: none;
-padding: 5px;
-outline: none;
- }
- .form-col input
-{
-width: 100%;
-margin-top: 10px;
-padding: 10px 10px;
-border: none;
-outline: none;
-border-radius: 7px;
- }
- .textarea textarea{
-   width: 100%;
-   margin-top: 10px;
-padding: 10px 10px;
-border: none;
-outline: none;
-border-radius: 7px;
- }
- #contact .form button{
-   font-size: 20px;
-   font-weight: 500;
-   background-color: #2c234d;
-   color: #F9F9F9;
-   border-radius: 5px;
-   outline: none;
-   border: none;
-   padding: 10px 10px;
-   margin-top: 10px;
- }
- 
-#map{
+  color: #2c234d;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-row input {
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 7px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.form-col input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+
+.textarea textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+
+#contact .form button {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #2c234d;
+  color: #F9F9F9;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+
+#map {
   margin-bottom: 50px;
 }
 
-@media (max-width:769px)
-{
-#contact
-{
- padding: 8vw 4vw;
-}
-.getin{
-  width: 250px;
-}
-#contact .form{
-  background-color: #f7f6fa;
-   padding: 30px;
-   border-radius: 10px;
-   margin-top: 20px;
-   margin-right: 10px;
-   margin-right: 50px;
- }}
+@media (max-width:769px) {
+  #contact {
+    padding: 8vw 4vw;
+  }
 
-@media (max-width:475px){
-#contact {
-  padding: 8vw 4vw;
-  flex-direction: column;
-  align-content: flex-start;
-  justify-content: flex-start;
-}
-.getin{
-  width: 100%;
-}
-#contact .form{
-  background-color: #f7f6fa;
-   padding: 30px;
-   border-radius: 10px;
-   width: 100%;
-   margin-top: 20px;
- }
- .form-row{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-}
-.form-row input{
- width: 100%;
- margin-top: 10px;
-}}
->>>>>>> 4bec0499dacc8a0d20c1f28743f797db9728e8f1
+  .getin {
+    width: 250px;
+  }
 
-    
+  #contact .form {
+    background-color: #f7f6fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width:475px) {
+  #contact {
+    padding: 8vw 4vw;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  .getin {
+    width: 100%;
+  }
+
+  #contact .form {
+    background-color: #f7f6fa;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .form-row input {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
