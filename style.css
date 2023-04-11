@@ -90,10 +90,41 @@
         font-size: 20px;
     }
 
-    .containter {
-        height: 800px;
-width: 1200px;
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  body{
+      background-color: rgb(219,226,226);
 
+<<<<<<< HEAD
+  }
+  .row{
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: 12px 12px 22px;
+  }
+  img{
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+  }
+  .btn1{
+      border: none;
+      outline: none;
+      height: 50px;
+      width: 100%;
+      background-color: black;
+      color: white;
+      border-radius: 4px;
+      font-weight: bold;
+  }
+  .btn1:hover{
+      background-color: white;
+      border: 1px solid;
+      color:black;
+  }
+=======
     }
     .sign{
 
@@ -260,5 +291,6 @@ border-radius: 7px;
  width: 100%;
  margin-top: 10px;
 }}
+>>>>>>> 4bec0499dacc8a0d20c1f28743f797db9728e8f1
 
     
