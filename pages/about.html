@@ -1,4 +1,4 @@
-c<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Vision Of Learning</title>
@@ -19,6 +19,40 @@ function light_mode()
   const element=document.getElementById("modechange");
   element.className="light-mode";
 }
+function search()
+   {
+    const element=document.getElementById("inputbox").value;
+    if(element=='javascript')
+   {
+    alert("javaScript Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='html')
+   {
+    
+    alert("HTML & CSS Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='web development')
+   {
+    alert("Web Development Crash Course are avilable in there go and registration now...")
+   }
+   else if(element=='web design')
+   {
+    alert("Web Design Crash Course are avilable in there go and registration now...")
+   }
+   else if(element=='angular')
+   {
+    alert("Angular Beginners Course are avilable in there go and registration now...")
+   }
+   else if(element=='python')
+   {
+    alert("Python Beginners Course are avilable in there go and registration now...")
+   }
+   else
+   {
+    alert("No Course are avilable in there🙄😶")
+   }
+
+   }
 </script>
 <style>
 #home
@@ -96,16 +130,16 @@ color: aliceblue;
                 <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link ms-3" href="./pages/about.html">About</a>
+                <a class="nav-link ms-3" href="/pages/about.html">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link ms-3" href="./pages/blog.html">Blog</a>
+                  <a class="nav-link ms-3" href="/pages/blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ms-3" href="./pages/cources.html">Courses</a>
+                  <a class="nav-link ms-3" href="/pages/cources.html">Courses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ms-3" href="./pages/contact.html">Contact</a>
+                  <a class="nav-link ms-3" href="/pages/contact.html">Contact</a>
                 </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -119,7 +153,7 @@ color: aliceblue;
             </ul>
             <form class="d-flex" role="search">
               <input id="inputbox" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success" onclick="search()" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -128,10 +162,11 @@ color: aliceblue;
 
 
      <section id="home">
-      <i class="team"><u><h2>Our team</h2></u></i>
+      <h2>Better Education For A Batter World.</h2>
     </section>
 
     <section></section>
+    <h1 class="text-primary-emphasis mt-3">Our Team</h1>
    <div class="row">
    <div class="row row-cols-1 row-cols-md-3 g-4">
        <div class="col">
@@ -256,26 +291,26 @@ color: aliceblue;
                    <div class="col-md-2 col-lg-2 col=xl-2 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
                     <p>
-                        <a href="#" class="text-white" style="text-decoration: none;">Home</a>
+                        <a href="/index.html" class="text-white" style="text-decoration: none;">Home</a>
                     </p>
                     <p>
                         <a href="#" class="text-white" style="text-decoration: none;">Search</a>
                     </p>
                     <p>
-                        <a href="#" class="text-white" style="text-decoration: none;">Contact</a>
+                        <a href="/pages/contact.html" class="text-white" style="text-decoration: none;">Contact</a>
                     </p>
                     <p>
-                        <a href="#" class="text-white" style="text-decoration: none;">About</a>
+                        <a href="/pages/about.html" class="text-white" style="text-decoration: none;">About</a>
                     </p>
                    </div>
     
                        <div class="col-md-2 col-lg-2 col=xl-2 mx-auto mt-3">
                         <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Learn</h5>
                         <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">Javascript</a>
+                            <a href="/pages/js.html" class="text-white" style="text-decoration: none;">Javascript</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">HTML & CSS</a>
+                            <a href="/" class="text-white" style="text-decoration: none;">HTML & CSS</a>
                         </p>
                         <p>
                             <a href="#" class="text-white" style="text-decoration: none;">Python</a>
